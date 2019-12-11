@@ -36,7 +36,7 @@ class Asserttest1(unittest.TestCase):
         driver.find_element_by_id("input-search").click()
         if driver.find_elements_by_id('input-search'):
             print("Element exists")
-        self.assertTrue(self.is_element_present(By.ID, "time"))
+#        self.assertTrue(self.is_element_present(By.ID, "exotics"))
         # ERROR: Caught exception [ERROR: Unsupported command [doubleClick | id=input-search | ]]
         # ERROR: Caught exception [ERROR: Unsupported command [doubleClick | id=input-search | ]]
         # ERROR: Caught exception [ERROR: Unsupported command [doubleClick | id=input-search | ]]
@@ -49,8 +49,9 @@ class Asserttest1(unittest.TestCase):
             "(.//*[normalize-space(text()) and normalize-space(.)='PORSCHE'])[8]/following::span[1]").click()
         driver.find_element_by_xpath("//img[@alt='1986 PORSCHE 944 ']").click()
         if content.find("PORSCHE"):
-            print("PORSCHE is present in the webpage")
-
+            print("PORSCHE1 is present in the webpage")
+#        if(driver.getPageSource().contains("PORSCHE"))
+#           print("PORSCHE2 is present in the webpage")
 
     def is_element_present(self, how, what):
         try:
