@@ -43,11 +43,11 @@ class Asserttest1(unittest.TestCase):
         driver.find_element_by_id("input-search").clear()
         elseYourMesg=driver.find_element_by_id("input-search").send_keys("exotics")
 #        assert "time" in elseYourMesg
-        driver.find_element_by_xpath(
-            "(.//*[normalize-space(text()) and normalize-space(.)='Member Portal'])[1]/following::button[2]").click()
-        driver.find_element_by_xpath(
-            "(.//*[normalize-space(text()) and normalize-space(.)='PORSCHE'])[8]/following::span[1]").click()
-        driver.find_element_by_xpath("//img[@alt='1986 PORSCHE 944 ']").click()
+#        driver.find_element_by_xpath(
+#            "(.//*[normalize-space(text()) and normalize-space(.)='Member Portal'])[1]/following::button[2]").click()
+#        driver.find_element_by_xpath(
+#            "(.//*[normalize-space(text()) and normalize-space(.)='PORSCHE'])[8]/following::span[1]").click()
+#        driver.find_element_by_xpath("//img[@alt='PORSCHE']").click()
         if content.find("PORSCHE"):
             print("PORSCHE1 is present in the webpage")
 #        if(driver.getPageSource().contains("PORSCHE"))
