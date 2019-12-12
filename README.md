@@ -212,10 +212,10 @@ https://www.copart.com/quickpick/boats?displayStr=Boats&from=/
 https://www.copart.com/quickpick/suvs?displayStr=SUVs&from=/
 https://www.copart.com/quickpick/forklifts?displayStr=Forklifts&from=/
 https://www.copart.com/vehicleFinder
-https://www.copart.com/banner/www/delivery/ck.php?oaparams=2__bannerid=5977__zoneid=233__cb=75c2e24b4f__oadest=https%3A%2F%2Fwww.copart.com%2FvehicleFinderSearch%2F%3FdisplayStr%3DHigh%2520Value%2520Insurance%26searchStr%3D%257B%2522MISC%2522%3A%255B%2522lot_member_acv%3A%255B50001%2520TO%2520%2A%255D%2522%2C%2522seller_type_desc%3A%255C%2522INSURANCE%2520COMPANY%255C%2522%2522%255D%257D%26intcmp%3Dweb_HP1_insurance_cl93
-https://www.copart.com/banner/www/delivery/ck.php?oaparams=2__bannerid=5941__zoneid=235__cb=8d2d4034c1__oadest=https%3A%2F%2Fwww.copart.com%2Fcontent%2Fus%2Fen%2Flanding-page%2Fcopart-mobile%3Fintcmp%3Dweb_hp2_mobile_app_default
-https://www.copart.com/banner/www/delivery/ck.php?oaparams=2__bannerid=3527__zoneid=237__cb=08c52f2add__oadest=https%3A%2F%2Fwww.copart.com%2FContent%2Fus%2Fen%2Flanding-page%2Fnight-cap-auctions%3Fintcmp%3Dweb_hp3_night_cap_default
-https://www.copart.com/banner/www/delivery/ck.php?oaparams=2__bannerid=6273__zoneid=239__cb=ddc1312c41__oadest=https%3A%2F%2Fwww.copart.com%2Fquickpick%2Fpuresaleitems%2F%3FdisplayStr%3DPure%2520Sale%2520Items%26from%3D%252F%26intcmp%3Dweb_hp4_puresale_default
+https://www.copart.com/banner/www/delivery/ck.php?oaparams=2__bannerid=6241__zoneid=233__cb=f77cdd1a43__oadest=https%3A%2F%2Fwww.copart.com%2FlotSearchResults%2F%3Ffree%3Dtrue%26query%3Dlocation%3A%2520houston%2520AND%2520damage_type_code%3ADAMAGECODE_WA%26intcmp%3Dweb_us_hp1_houstonfloodimelda_20191107
+https://www.copart.com/banner/www/delivery/ck.php?oaparams=2__bannerid=5941__zoneid=235__cb=e503101ca8__oadest=https%3A%2F%2Fwww.copart.com%2Fcontent%2Fus%2Fen%2Flanding-page%2Fcopart-mobile%3Fintcmp%3Dweb_hp2_mobile_app_default
+https://www.copart.com/banner/www/delivery/ck.php?oaparams=2__bannerid=3527__zoneid=237__cb=7ef2f8614f__oadest=https%3A%2F%2Fwww.copart.com%2FContent%2Fus%2Fen%2Flanding-page%2Fnight-cap-auctions%3Fintcmp%3Dweb_hp3_night_cap_default
+https://www.copart.com/banner/www/delivery/ck.php?oaparams=2__bannerid=6273__zoneid=239__cb=31a50ec938__oadest=https%3A%2F%2Fwww.copart.com%2Fquickpick%2Fpuresaleitems%2F%3FdisplayStr%3DPure%2520Sale%2520Items%26from%3D%252F%26intcmp%3Dweb_hp4_puresale_default
 https://www.copart.com/search/classics?displayStr=Classics&from=%2FvehicleFinder&intcmp=web_homepage_about_classics_member_en
 https://www.copart.com/search/automobiles?displayStr=Automobiles&from=%2FvehicleFinder&intcmp=web_homepage_about_cars_member_en
 https://www.copart.com/search/pickuptrucks?displayStr=Pickup%20Trucks&from=%2FvehicleFinder&intcmp=web_homepage_about_trucks_member_en
@@ -228,28 +228,91 @@ https://www.copart.com/content/us/en/landing-page/international-buyers?intcmp=we
 https://www.copart.com/content/us/en/landing-page/junk-to-gold?intcmp=web_homepage_about_images_junktogold_public_en
 https://www.copart.com/Content/us/en/Member-News/Index?page=0&intcmp=web_homepage_about_membernews_index_public_en
 https://www.copart.com/content/us/en/member-news/pittsburgh-west?intcmp=web_homepage_about_membernews_pittsburgh_west_public_en
-E
-======================================================================
-ERROR: test_challenge3forloop (__main__.Asserttest1)
+https://copartcommunity.com/2019/12/09/how-to-become-a-buyer-at-copart/
+https://www.facebook.com/Copart
+https://www.instagram.com/copart1982
+https://www.linkedin.com/company/copart
+https://twitter.com/copart
+https://www.youtube.com/copart
+https://copartcommunity.com/
+https://www.copart.com/aboutus?intcmp=web_footer_aboutus_en
+https://www.copart.com/Content/us/en/About-Copart/Our-History
+https://global.copart.com/
+https://www.copart.com/howVb3Works?intcmp=web_footer_howvb3works_en
+https://www.copart.com/content/us/en/landing-page/copart-in-the-community?intcmp=web_footer_copartinthecommunity_en
+https://www.copart.com/en/Content/us/en/Member-News/Index?intcmp=web_footer_membernewsindex_en
+https://www.copart.com/copartreview?intcmp=web_footer_copartreviews_en
+https://www.copart.com/career?intcmp=web_footer_careers_en
+https://www.copart.com/en/Content/us/en/Press-Releases/Index?page=0&intcmp=web_footer_pressreleases_en
+https://www.copart.com/investorrelation?intcmp=web_footer_investerrelations_en
+https://www.copart.com/vehicleFinder?intcmp=web_footer_vehiclefinder_en
+https://www.copart.com/salesListResult?intcmp=web_footer_saleslists_en
+https://www.copart.com/public/watchList?intcmp=web_footer_watchlistpublic_en
+https://www.copart.com/savedsearch?intcmp=web_footer_savedsearches_en
+https://www.copart.com/vehicleAlerts?intcmp=web_footer_vehiclealerts_en
+https://www.copart.com/todaysAuction?intcmp=web_footer_todaysauctions_en
+https://www.copart.com/auctionCalendar?intcmp=web_footer_auctioncalendar_en
+https://www.copart.com/auctionDashboard?intcmp=web_footer_auctiondashboard_en
+https://www.copart.com/Content/us/en/landing-page/night-cap-auctions?cid=vn_night_cap_sale_footer
+https://www.copart.com/locations/?region=EUROPE&intcmp=web_footer_locations_europe_en
+https://www.copart.com/locations/?region=MIDDLE_EAST&intcmp=web_footer__locations_middleeast_en
+https://www.copart.com/locations/?region=NORTH_AMERICA&intcmp=web_footer_locations_northamerica_en
+https://www.copart.com/locations/?region=SOUTH_AMERICA&intcmp=web_footer_locations_southamerica_en
+https://www.copart.com/brokersmarketmakers/1?intcmp=web_footer_brokers_en
+https://www.copart.com/content/us/en/landing-page/third-party-inspections?intcmp=web_footer_inspectors_en
+https://www.copart.com/Content/us/en/landing-page/vehicle-reports
+https://www.copart.com/Content/us/en/Services/Industry-Links
+https://www.copart.com/international-shipping?intcmp=web_footer_internationalshipping_en
+https://www.copart.com/towproviders?intcmp=web_footer_towproviders_en
+https://www.copart.com/content/us/en/landing-page/international-buyers?intcmp=web_footer_internationalbuyers_en
+https://www.copart.com/overview?intcmp=web_footer_howtobuyoverview_en
+https://www.copart.com/Content/us/en/Support/FAQ-Topics/Buying
+https://www.copart.com/Content/us/en/Support/FAQ-Topics/Common-Terms
+https://www.copart.com/Content/us/en/landing-page/resource-center?intcmp=web_footer_resource_center_en
+https://www.copart.com/helpWithLicensing?intcmp=web_footer_helpwithlicensing_en
+https://www.copart.com/copartVideos?intcmp=web_footer_copartvideos_en
+https://www.copart.com/memberFees?intcmp=web_footer_memberfees_en
+https://www.copart.com/Content/us/en/landing-page/copart-mobile
+https://www.copart.com/en/Content/us/en/landing-page/seller-mobile?intcmp=web_footer_sellermobile_en
+https://www.facebook.com/Copart
+https://twitter.com/copart
+https://www.instagram.com/copart1982/
+https://www.linkedin.com/company/copart
+https://www.youtube.com/copart
+https://copartcommunity.com/
+https://play.google.com/store/apps/details?id=com.copart.membermobile&hl=en
+https://itunes.apple.com/us/app/copart-mobile/id414275302
+https://www.crashedtoys.com/?intcmp=web_copartfooter_ourbrands_en
+https://www.driveautoauctions.com/?intcmp=web_copartfooter_ourbrands_en
+https://www.copartdirect.com/?intcmp=web_copartfooter_ourbrands_en
+https://www.npauctions.com/?intcmp=web_copartfooter_ourbrands_en
+https://www.copart.com/
+https://www.copart.co.uk/
+https://www.copart.ca/
+https://www.copart.de/
+https://www.copart.fi/
+https://www.copart.es/
+https://www.copart.ie/
+https://www.copartmea.com/?ref=loc470&cid=footer_flag_us_uae
+https://www.copartmea.com/?ref=loc480&cid=footer_flag_us_bh
+https://www.copartmea.com/?ref=loc475&cid=footer_flag_us_om
+http://www.copart.com.br/
+https://global.copart.com/
+https://www.copart.com/sitemapslimfooter?intcmp=web_footer_sitemap_en
+https://www.copart.com/content/us/en/contact-us/member-services
+https://www.copart.com/sellForIndividuals?intcmp=web_footer_sellforindividuals_en
+https://www.copart.com/content/us/en/terms-of-use
+https://www.copart.com/content/us/en/privacy-policy?intcmp=web_footer_privacypolicy_en
+https://www.copart.com/content/us/en/copyright?intcmp=web_footer_copyright_en
+https://www.copart.com/content/us/en/member-terms-and-conditions?intcmp=web_footer_termsandconditions_en
+https://www.copart.com/content/us/en/cookie-policy?intcmp=web_footer_cookiepolicy_en
+https://www.copart.com/login?show=forgotuserid
+https://www.copart.com/doRegistration
+mailto:member.services@copart.com
+.
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test1.py", line 65, in test_challenge3forloop
-    print(elem.get_attribute("href"))
-  File "C:\Users\SlingUserB\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 139, in get_attribute
-    attributeValue = self.parent.execute_script(
-  File "C:\Users\SlingUserB\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 634, in execute_script
-    return self.execute(command, {
-  File "C:\Users\SlingUserB\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "C:\Users\SlingUserB\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
-  (Session info: chrome=78.0.3904.108)
+Ran 2 tests in 45.170s
 
+OK
 
-----------------------------------------------------------------------
-Ran 2 tests in 41.193s
-
-FAILED (errors=1)
-
-C:\Users\SlingUserB\PycharmProjects\challenges\test1>print(elem)
+C:\Users\SlingUserB\PycharmProjects\challenges\test1>
