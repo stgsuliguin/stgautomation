@@ -212,10 +212,17 @@ https://www.copart.com/quickpick/boats?displayStr=Boats&from=/
 https://www.copart.com/quickpick/suvs?displayStr=SUVs&from=/
 https://www.copart.com/quickpick/forklifts?displayStr=Forklifts&from=/
 https://www.copart.com/vehicleFinder
+<<<<<<< HEAD
 https://www.copart.com/banner/www/delivery/ck.php?oaparams=2__bannerid=6241__zoneid=233__cb=f77cdd1a43__oadest=https%3A%2F%2Fwww.copart.com%2FlotSearchResults%2F%3Ffree%3Dtrue%26query%3Dlocation%3A%2520houston%2520AND%2520damage_type_code%3ADAMAGECODE_WA%26intcmp%3Dweb_us_hp1_houstonfloodimelda_20191107
 https://www.copart.com/banner/www/delivery/ck.php?oaparams=2__bannerid=5941__zoneid=235__cb=e503101ca8__oadest=https%3A%2F%2Fwww.copart.com%2Fcontent%2Fus%2Fen%2Flanding-page%2Fcopart-mobile%3Fintcmp%3Dweb_hp2_mobile_app_default
 https://www.copart.com/banner/www/delivery/ck.php?oaparams=2__bannerid=3527__zoneid=237__cb=7ef2f8614f__oadest=https%3A%2F%2Fwww.copart.com%2FContent%2Fus%2Fen%2Flanding-page%2Fnight-cap-auctions%3Fintcmp%3Dweb_hp3_night_cap_default
 https://www.copart.com/banner/www/delivery/ck.php?oaparams=2__bannerid=6273__zoneid=239__cb=31a50ec938__oadest=https%3A%2F%2Fwww.copart.com%2Fquickpick%2Fpuresaleitems%2F%3FdisplayStr%3DPure%2520Sale%2520Items%26from%3D%252F%26intcmp%3Dweb_hp4_puresale_default
+=======
+https://www.copart.com/banner/www/delivery/ck.php?oaparams=2__bannerid=5977__zoneid=233__cb=75c2e24b4f__oadest=https%3A%2F%2Fwww.copart.com%2FvehicleFinderSearch%2F%3FdisplayStr%3DHigh%2520Value%2520Insurance%26searchStr%3D%257B%2522MISC%2522%3A%255B%2522lot_member_acv%3A%255B50001%2520TO%2520%2A%255D%2522%2C%2522seller_type_desc%3A%255C%2522INSURANCE%2520COMPANY%255C%2522%2522%255D%257D%26intcmp%3Dweb_HP1_insurance_cl93
+https://www.copart.com/banner/www/delivery/ck.php?oaparams=2__bannerid=5941__zoneid=235__cb=8d2d4034c1__oadest=https%3A%2F%2Fwww.copart.com%2Fcontent%2Fus%2Fen%2Flanding-page%2Fcopart-mobile%3Fintcmp%3Dweb_hp2_mobile_app_default
+https://www.copart.com/banner/www/delivery/ck.php?oaparams=2__bannerid=3527__zoneid=237__cb=08c52f2add__oadest=https%3A%2F%2Fwww.copart.com%2FContent%2Fus%2Fen%2Flanding-page%2Fnight-cap-auctions%3Fintcmp%3Dweb_hp3_night_cap_default
+https://www.copart.com/banner/www/delivery/ck.php?oaparams=2__bannerid=6273__zoneid=239__cb=ddc1312c41__oadest=https%3A%2F%2Fwww.copart.com%2Fquickpick%2Fpuresaleitems%2F%3FdisplayStr%3DPure%2520Sale%2520Items%26from%3D%252F%26intcmp%3Dweb_hp4_puresale_default
+>>>>>>> 8812863f0ca2c4dfcce9f03497162373c05509e1
 https://www.copart.com/search/classics?displayStr=Classics&from=%2FvehicleFinder&intcmp=web_homepage_about_classics_member_en
 https://www.copart.com/search/automobiles?displayStr=Automobiles&from=%2FvehicleFinder&intcmp=web_homepage_about_cars_member_en
 https://www.copart.com/search/pickuptrucks?displayStr=Pickup%20Trucks&from=%2FvehicleFinder&intcmp=web_homepage_about_trucks_member_en
@@ -228,6 +235,7 @@ https://www.copart.com/content/us/en/landing-page/international-buyers?intcmp=we
 https://www.copart.com/content/us/en/landing-page/junk-to-gold?intcmp=web_homepage_about_images_junktogold_public_en
 https://www.copart.com/Content/us/en/Member-News/Index?page=0&intcmp=web_homepage_about_membernews_index_public_en
 https://www.copart.com/content/us/en/member-news/pittsburgh-west?intcmp=web_homepage_about_membernews_pittsburgh_west_public_en
+<<<<<<< HEAD
 https://copartcommunity.com/2019/12/09/how-to-become-a-buyer-at-copart/
 https://www.facebook.com/Copart
 https://www.instagram.com/copart1982
@@ -316,3 +324,30 @@ Ran 2 tests in 45.170s
 OK
 
 C:\Users\SlingUserB\PycharmProjects\challenges\test1>
+=======
+E
+======================================================================
+ERROR: test_challenge3forloop (__main__.Asserttest1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test1.py", line 65, in test_challenge3forloop
+    print(elem.get_attribute("href"))
+  File "C:\Users\SlingUserB\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 139, in get_attribute
+    attributeValue = self.parent.execute_script(
+  File "C:\Users\SlingUserB\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 634, in execute_script
+    return self.execute(command, {
+  File "C:\Users\SlingUserB\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\SlingUserB\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=78.0.3904.108)
+
+
+----------------------------------------------------------------------
+Ran 2 tests in 41.193s
+
+FAILED (errors=1)
+
+C:\Users\SlingUserB\PycharmProjects\challenges\test1>print(elem)
+>>>>>>> 8812863f0ca2c4dfcce9f03497162373c05509e1
