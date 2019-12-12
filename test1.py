@@ -43,15 +43,30 @@ class Asserttest1(unittest.TestCase):
         driver.find_element_by_id("input-search").clear()
         elseYourMesg=driver.find_element_by_id("input-search").send_keys("exotics")
 #        assert "time" in elseYourMesg
-        driver.find_element_by_xpath(
-            "(.//*[normalize-space(text()) and normalize-space(.)='Member Portal'])[1]/following::button[2]").click()
-        driver.find_element_by_xpath(
-            "(.//*[normalize-space(text()) and normalize-space(.)='PORSCHE'])[8]/following::span[1]").click()
-        driver.find_element_by_xpath("//img[@alt='1986 PORSCHE 944 ']").click()
+#        driver.find_element_by_xpath(
+#            "(.//*[normalize-space(text()) and normalize-space(.)='Member Portal'])[1]/following::button[2]").click()
+#        driver.find_element_by_xpath(
+#            "(.//*[normalize-space(text()) and normalize-space(.)='PORSCHE'])[8]/following::span[1]").click()
+#        driver.find_element_by_xpath("//img[@alt='PORSCHE']").click()
         if content.find("PORSCHE"):
             print("PORSCHE1 is present in the webpage")
 #        if(driver.getPageSource().contains("PORSCHE"))
 #           print("PORSCHE2 is present in the webpage")
+
+    def test_challenge3forloop(self):
+        print ('go to google')
+        self.driver.get('https://www.copart.com')
+        elements = self.driver.find_element(By.XPATH, "//*[@ng-if=\"popularSearches\"]//a")
+        elems = self.driver.find_elements_by_xpath("//*[@href]")
+#x = str(continue_link)
+#print(continue_link)
+
+        for elem in elems:
+            print(elem.get_attribute("href"))
+#        fruits = ["CAMRY"]
+#        for x in fruits:
+#            print(x)
+
 
     def is_element_present(self, how, what):
         try:
