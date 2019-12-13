@@ -33,6 +33,7 @@ class Asserttest1(unittest.TestCase):
     def test_asserttest1(self):
         driver = self.driver
         driver.get("https://www.copart.com/")
+        self.assertIn("Copart", self.driver.title)
         content = driver.page_source
         driver.find_element_by_id("input-search").click()
         if driver.find_elements_by_id('input-search'):
@@ -58,12 +59,14 @@ class Asserttest1(unittest.TestCase):
         print ('go to google')
         self.driver.get('https://www.copart.com')
         elements = self.driver.find_element(By.XPATH, "//*[@ng-if=\"popularSearches\"]//a")
+        elements1 =self.driver.find_elements(By.XPATH, "//*[@id=\"tabTrending\"]/div[1]//a")
         elems = self.driver.find_elements_by_xpath("//*[@href]")
 #x = str(continue_link)
 #print(continue_link)
 
-        for elem in elems:
-            print(elem.get_attribute("href"))
+        for count in elements1:
+#            print(elem.get_attribute("href"))
+            print(count.text + ": " + count.get_attribute("href"))
 #        fruits = ["CAMRY"]
 #        for x in fruits:
 #            print(x)
