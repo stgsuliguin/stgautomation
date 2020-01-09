@@ -32,34 +32,34 @@ class Asserttest1(unittest.TestCase):
 
     def test_asserttest1(self):
         driver = self.driver
-        driver.get("https://www.copart.com/")
-        self.assertIn("Copart", self.driver.title)
+        driver.get("https://www.sling.com/")
+        self.assertIn("Sling", self.driver.title)
         content = driver.page_source
-        driver.find_element_by_id("input-search").click()
-        if driver.find_elements_by_id('input-search'):
-            print("Element exists")
+#        driver.find_element_by_id("input-search").click()
+#        if driver.find_elements_by_id('input-search'):
+#            print("Element exists")
 #        self.assertTrue(self.is_element_present(By.ID, "exotics"))
         # ERROR: Caught exception [ERROR: Unsupported command [doubleClick | id=input-search | ]]
         # ERROR: Caught exception [ERROR: Unsupported command [doubleClick | id=input-search | ]]
         # ERROR: Caught exception [ERROR: Unsupported command [doubleClick | id=input-search | ]]
-        driver.find_element_by_id("input-search").clear()
-        elseYourMesg=driver.find_element_by_id("input-search").send_keys("exotics")
+#        driver.find_element_by_id("input-search").clear()
+#        elseYourMesg=driver.find_element_by_id("input-search").send_keys("exotics")
 #        assert "time" in elseYourMesg
 #        driver.find_element_by_xpath(
 #            "(.//*[normalize-space(text()) and normalize-space(.)='Member Portal'])[1]/following::button[2]").click()
 #        driver.find_element_by_xpath(
 #            "(.//*[normalize-space(text()) and normalize-space(.)='PORSCHE'])[8]/following::span[1]").click()
 #        driver.find_element_by_xpath("//img[@alt='PORSCHE']").click()
-        if content.find("PORSCHE"):
-            print("PORSCHE1 is present in the webpage")
+#        if content.find("PORSCHE"):
+#            print("PORSCHE1 is present in the webpage")
 #        if(driver.getPageSource().contains("PORSCHE"))
 #           print("PORSCHE2 is present in the webpage")
 
     def test_challenge3forloop(self):
         print ('go to google')
-        self.driver.get('https://www.copart.com')
+        self.driver.get('https://www.sling.com')
 #        elements = self.driver.find_element(By.XPATH, "//*[@ng-if=\"popularSearches\"]//a")
-        elements =self.driver.find_elements(By.XPATH, "//*[@id=\"tabTrending\"]/div[1]//a")
+        elements =self.driver.find_elements(By.XPATH, "//*[@id=\"Sling Orange\"]/div[1]//a")
 #        elems = self.driver.find_elements_by_xpath("//*[@href]")
 #x = str(continue_link)
 #print(continue_link)
@@ -68,7 +68,7 @@ class Asserttest1(unittest.TestCase):
             print(count.text + ": " + count.get_attribute("href"))
 
     def test_challenge3whileloop(self):
-        elements = self.driver.find_elements(By.XPATH, "//*[@ng-if=\"popularSearches\"]/../div[3]//a")
+        elements = self.driver.find_elements(By.XPATH, "//*[@ng-if=\"Sling Orange\"]/../div[3]//a")
         i = 0
         while i < len(elements):
                 print(elements[i].text + ": " + elements[i].get_attribute("href"))
