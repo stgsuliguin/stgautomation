@@ -44,8 +44,8 @@ class challenge2(unittest.TestCase):
         searchfield.send_keys("exotic")
         searchbutton = self.driver.find_element(By.XPATH, "//button[@data-uname=\"homepageHeadersearchsubmit\"]")
         searchbutton.click()
-        dataelement = WebDriverWait(self.driver, 60).until(EC.presence_of_element_located((By.XPATH, "//*[@id=\"serverSideDataTable\"]//tbody"))
-        dataelement = WebDriverWait(self.driver, 60).until(EC.visibility_of((By.XPATH, "//*[@id=\"serverSideDataTable\"]//tbody")))
+#        dataelement = WebDriverWait(self.driver, 60).until(EC.presence_of_element_located((By.XPATH, "//*[@id=\"serverSideDataTable\"]//tbody"))
+#        dataelement = WebDriverWait(self.driver, 60).until(EC.visibility_of((By.XPATH, "//*[@id=\"serverSideDataTable\"]//tbody")))
         html = dataelement.get_attribute("innterHTML")
         print(html);
 
