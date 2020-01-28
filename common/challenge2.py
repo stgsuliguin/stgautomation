@@ -13,7 +13,7 @@ from selenium import webdriver
 
 from screenshot import screenshot
 from filters import filters
-from headerSearch import headerSearch
+from headerSearch.headerSearch import headerSearch
 from searchResults import searchResults
 
 
@@ -60,17 +60,17 @@ class challenge2(unittest.TestCase):
 
 #        self.assertIn("PORSCHE", html)
 
-#    def test_challenge6(self):
-
-        import headerSearch()
-        hs = headerSearch
+    def test_challenge6(self):
+        headerSearch()
+        hs = headerSearch()
+#        hs = headerSearch(self.driver)
         hs.searchFor("nissan")
         f = filters()
         f.clickFilter("Model")
-#        s = screenshot()
-#        s.takeScreenshot("Skyline")
-#        sr = searchResults()
-#        sr.changeDropDown("100")
+        s = screenshot()
+        s.takeScreenshot("Skyline")
+        sr = searchResults()
+        sr.changeDropDown("100")
 
 #        try:
 #            filterName = "Model"
