@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.8.0 on win32)" generated="20200129 12:36:35.796" rpa="false">
+<suite id="s1" name="Basic tests" source="C:\Users\SlingUserB\PycharmProjects\challenges\test1\Roku\automated-channel-testing-master\RobotLibrary\Tests\Basic_tests.robot">
+<test id="s1-t1" name="Channel should be launched">
+<kw name="Launch the channel">
+<arguments>
+<arg>${channel_code}</arg>
+</arguments>
+<msg timestamp="20200129 12:36:37.008" level="FAIL">No keyword with name 'Launch the channel' found.</msg>
+<status status="FAIL" starttime="20200129 12:36:37.008" endtime="20200129 12:36:37.008"></status>
+</kw>
+<status status="FAIL" starttime="20200129 12:36:37.008" endtime="20200129 12:36:37.008" critical="yes">No keyword with name 'Launch the channel' found.</status>
+</test>
+<test id="s1-t2" name="Check if details screen showed">
+<kw name="Send key">
+<arguments>
+<arg>select</arg>
+<arg>4</arg>
+</arguments>
+<msg timestamp="20200129 12:36:37.030" level="FAIL">No keyword with name 'Send key' found.</msg>
+<status status="FAIL" starttime="20200129 12:36:37.030" endtime="20200129 12:36:37.030"></status>
+</kw>
+<status status="FAIL" starttime="20200129 12:36:37.023" endtime="20200129 12:36:37.030" critical="yes">No keyword with name 'Send key' found.</status>
+</test>
+<test id="s1-t3" name="Check if playback started">
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<arguments>
+<arg>Verify is screen loaded</arg>
+<arg>${Params5}</arg>
+<arg>2</arg>
+</arguments>
+<assign>
+<var>${status}</var>
+<var>${value}</var>
+</assign>
+<kw name="Verify is screen loaded">
+<arguments>
+<arg>${Params5}</arg>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200129 12:36:37.046" level="FAIL">No keyword with name 'Verify is screen loaded' found.</msg>
+<status status="FAIL" starttime="20200129 12:36:37.046" endtime="20200129 12:36:37.046"></status>
+</kw>
+<msg timestamp="20200129 12:36:37.046" level="INFO">${status} = FAIL</msg>
+<msg timestamp="20200129 12:36:37.046" level="INFO">${value} = No keyword with name 'Verify is screen loaded' found.</msg>
+<status status="PASS" starttime="20200129 12:36:37.046" endtime="20200129 12:36:37.046"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${status}"=="PASS"</arg>
+<arg>Do auth</arg>
+<arg>ELSE</arg>
+<arg>Send key</arg>
+<arg>select</arg>
+</arguments>
+<kw name="Send key">
+<arguments>
+<arg>select</arg>
+</arguments>
+<msg timestamp="20200129 12:36:37.061" level="FAIL">No keyword with name 'Send key' found.</msg>
+<status status="FAIL" starttime="20200129 12:36:37.061" endtime="20200129 12:36:37.061"></status>
+</kw>
+<status status="FAIL" starttime="20200129 12:36:37.046" endtime="20200129 12:36:37.061"></status>
+</kw>
+<status status="FAIL" starttime="20200129 12:36:37.030" endtime="20200129 12:36:37.061" critical="yes">No keyword with name 'Send key' found.</status>
+</test>
+<doc>Basic smoke tests</doc>
+<status status="FAIL" starttime="20200129 12:36:35.796" endtime="20200129 12:36:37.061"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3">Critical Tests</stat>
+<stat pass="0" fail="3">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" id="s1" name="Basic tests">Basic tests</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20200129 12:36:36.961" level="ERROR">Error in file 'C:\Users\SlingUserB\PycharmProjects\challenges\test1\Roku\automated-channel-testing-master\RobotLibrary\Tests\Basic_tests.robot': Initializing test library 'RobotLibrary' with arguments [ 192.168.1.22 | 20000 | 2000 | D:/projects/go/webDriver/src/main.exe ] failed: FileNotFoundError: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "C:\Users\SlingUserB\PycharmProjects\challenges\test1\Roku\automated-channel-testing-master\RobotLibrary\Library\RobotLibrary.py", line 33, in __init__
+    self._process = subprocess.Popen(path)
+  File "C:\Users\SlingUserB\AppData\Local\Programs\Python\Python38-32\lib\subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\SlingUserB\AppData\Local\Programs\Python\Python38-32\lib\subprocess.py", line 1307, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,</msg>
+</errors>
+</robot>
