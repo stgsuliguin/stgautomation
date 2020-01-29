@@ -20,10 +20,10 @@ Library  Collections
 
 
 *** Variables ***
-${ip_address}  192.168.1.94
-${server_path}  D:/projects/go/webDriver/src/main.exe
-${timeout}  20000
-${pressDelay}  2000
+${ip_address}  192.168.1.22
+${server_path}  C:\Users\SlingUserB\PycharmProjects\challenges\test1\Roku\automated-channel-testing-master\src\main.exe
+${timeout}  90000
+${pressDelay}  8000
 ${channel_code}  dev
 &{DATA2}=  using=text  value=Barack Gates, Bill Obama
 @{DATA2Array}=  &{DATA2}
@@ -49,7 +49,7 @@ Check if details screen showed
     Verify is screen loaded    ${Params2}
 
 Check if playback started
-    ${status}  ${value}=  Run Keyword And Ignore Error  Verify is screen loaded  ${Params5}  2 
+    ${status}  ${value}=  Run Keyword And Ignore Error  Verify is screen loaded  ${Params5}  2
     Run keyword if   "${status}"=="PASS"  Do auth
     ...  ELSE  Send key  select
     Verify is playback started
