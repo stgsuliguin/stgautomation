@@ -1,107 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.2 (Python 3.8.0 on win32)" generated="20200129 13:40:24.683" rpa="false">
-<suite id="s1" name="Src &amp; Basic tests">
+<robot generator="Robot 3.1.2 (Python 3.8.0 on win32)" generated="20200129 14:53:22.379" rpa="false">
+<suite id="s1" name="Src &amp; test 4 DetailsScreen">
 <suite id="s1-s1" name="Src" source="C:\Users\SlingUserB\PycharmProjects\challenges\test1\Roku\automated-channel-testing-master\src">
-<status status="PASS" starttime="20200129 13:40:24.899" endtime="20200129 13:40:24.914"></status>
+<status status="PASS" starttime="20200129 14:53:22.680" endtime="20200129 14:53:22.720"></status>
 </suite>
-<suite id="s1-s2" name="Basic tests" source="C:\Users\SlingUserB\PycharmProjects\challenges\test1\Roku\automated-channel-testing-master\RobotLibrary\Tests\Basic_tests.robot">
-<test id="s1-s2-t1" name="Channel should be launched">
+<suite id="s1-s2" name="test 4 DetailsScreen" source="C:\Users\SlingUserB\PycharmProjects\challenges\test1\Roku\automated-channel-testing-master\RobotLibrary\Tests\test_4_DetailsScreen.robot">
+<test id="s1-s2-t1" name="Check if channel exist on the device">
+<kw name="Get apps" library="RobotLibrary">
+<assign>
+<var>@{apps}</var>
+</assign>
+<msg timestamp="20200129 14:53:24.461" level="INFO">@{apps} = [ {'Title': 'FandangoNOW Movies &amp; TV', 'ID': '31012', 'Type': 'menu', 'Version': '1.9.32', 'Subtype': ''} | {'Title': 'Netflix', 'ID': '12', 'Type': 'appl', 'Version': '5.0.81179041', 'Subtype': 'ndka...</msg>
+<status status="PASS" starttime="20200129 14:53:24.366" endtime="20200129 14:53:24.461"></status>
+</kw>
+<kw name="Verify is channel exist" library="RobotLibrary">
+<arguments>
+<arg>${apps}</arg>
+<arg>${channel_code}</arg>
+</arguments>
+<status status="PASS" starttime="20200129 14:53:24.461" endtime="20200129 14:53:24.461"></status>
+</kw>
+<status status="PASS" starttime="20200129 14:53:24.351" endtime="20200129 14:53:24.461" critical="yes"></status>
+</test>
+<test id="s1-s2-t2" name="Verify is channel launched">
 <kw name="Launch the channel" library="RobotLibrary">
 <arguments>
 <arg>${channel_code}</arg>
 </arguments>
-<msg timestamp="20200129 13:40:27.309" level="INFO">&lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20200129 13:40:25.910" endtime="20200129 13:40:27.309"></status>
+<msg timestamp="20200129 14:53:26.729" level="INFO">&lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20200129 14:53:24.476" endtime="20200129 14:53:26.730"></status>
 </kw>
 <kw name="Verify is channel loaded" library="RobotLibrary">
 <arguments>
 <arg>${channel_code}</arg>
 </arguments>
-<status status="PASS" starttime="20200129 13:40:27.310" endtime="20200129 13:40:27.389"></status>
+<status status="PASS" starttime="20200129 14:53:26.730" endtime="20200129 14:53:26.820"></status>
 </kw>
-<status status="PASS" starttime="20200129 13:40:25.910" endtime="20200129 13:40:27.390" critical="yes"></status>
+<status status="PASS" starttime="20200129 14:53:24.476" endtime="20200129 14:53:26.823" critical="yes"></status>
 </test>
-<test id="s1-s2-t2" name="Check if details screen showed">
+<test id="s1-s2-t3" name="Verify is initial screen loaded">
+<kw name="Verify is screen loaded" library="RobotLibrary">
+<arguments>
+<arg>${GridParams}</arg>
+</arguments>
+<msg timestamp="20200129 14:53:28.001" level="INFO">{'elementData': [{'using': 'tag', 'value': 'GridView'}]}</msg>
+<status status="PASS" starttime="20200129 14:53:26.837" endtime="20200129 14:53:28.002"></status>
+</kw>
+<status status="PASS" starttime="20200129 14:53:26.831" endtime="20200129 14:53:28.002" critical="yes"></status>
+</test>
+<test id="s1-s2-t4" name="Verify series details screen button">
 <kw name="Send key" library="RobotLibrary">
 <arguments>
-<arg>select</arg>
+<arg>Select</arg>
+<arg>3</arg>
+</arguments>
+<status status="PASS" starttime="20200129 14:53:28.002" endtime="20200129 14:53:31.074"></status>
+</kw>
+<kw name="Verify is screen loaded" library="RobotLibrary">
+<arguments>
+<arg>${SeriesDetailsParams}</arg>
+<arg>3</arg>
 <arg>4</arg>
 </arguments>
-<status status="PASS" starttime="20200129 13:40:27.390" endtime="20200129 13:40:31.444"></status>
+<msg timestamp="20200129 14:53:43.327" level="INFO">{'elementData': [{'using': 'text', 'value': 'No Content to play'}]}</msg>
+<msg timestamp="20200129 14:53:43.327" level="FAIL">Can't find element</msg>
+<status status="FAIL" starttime="20200129 14:53:31.074" endtime="20200129 14:53:43.327"></status>
 </kw>
-<kw name="Verify is screen loaded" library="RobotLibrary">
-<arguments>
-<arg>${Params2}</arg>
-</arguments>
-<msg timestamp="20200129 13:40:32.646" level="INFO">{'elementData': [{'using': 'text', 'value': 'Barack Gates, Bill Obama'}]}</msg>
-<status status="PASS" starttime="20200129 13:40:31.445" endtime="20200129 13:40:32.646"></status>
-</kw>
-<status status="PASS" starttime="20200129 13:40:27.390" endtime="20200129 13:40:32.647" critical="yes"></status>
+<status status="FAIL" starttime="20200129 14:53:28.002" endtime="20200129 14:53:43.327" critical="yes">Can't find element</status>
 </test>
-<test id="s1-s2-t3" name="Check if playback started">
-<kw name="Run Keyword And Ignore Error" library="BuiltIn">
-<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
-<arguments>
-<arg>Verify is screen loaded</arg>
-<arg>${Params5}</arg>
-<arg>2</arg>
-</arguments>
-<assign>
-<var>${status}</var>
-<var>${value}</var>
-</assign>
-<kw name="Verify is screen loaded" library="RobotLibrary">
-<arguments>
-<arg>${Params5}</arg>
-<arg>2</arg>
-</arguments>
-<msg timestamp="20200129 13:40:34.745" level="INFO">{'elementData': [{'using': 'text', 'value': 'Authenticate to watch'}]}</msg>
-<msg timestamp="20200129 13:40:34.745" level="FAIL">Can't find element</msg>
-<status status="FAIL" starttime="20200129 13:40:32.647" endtime="20200129 13:40:34.745"></status>
-</kw>
-<msg timestamp="20200129 13:40:34.745" level="INFO">${status} = FAIL</msg>
-<msg timestamp="20200129 13:40:34.745" level="INFO">${value} = Can't find element</msg>
-<status status="PASS" starttime="20200129 13:40:32.647" endtime="20200129 13:40:34.745"></status>
-</kw>
-<kw name="Run Keyword If" library="BuiltIn">
-<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<arguments>
-<arg>"${status}"=="PASS"</arg>
-<arg>Do auth</arg>
-<arg>ELSE</arg>
-<arg>Send key</arg>
-<arg>select</arg>
-</arguments>
+<test id="s1-s2-t5" name="Verify movies details screen button">
 <kw name="Send key" library="RobotLibrary">
 <arguments>
-<arg>select</arg>
+<arg>Back</arg>
+<arg>3</arg>
 </arguments>
-<status status="PASS" starttime="20200129 13:40:34.745" endtime="20200129 13:40:36.796"></status>
+<status status="PASS" starttime="20200129 14:53:43.343" endtime="20200129 14:53:46.410"></status>
 </kw>
-<status status="PASS" starttime="20200129 13:40:34.745" endtime="20200129 13:40:36.796"></status>
+<kw name="Verify is screen loaded" library="RobotLibrary">
+<arguments>
+<arg>${GridParams}</arg>
+</arguments>
+<msg timestamp="20200129 14:53:46.499" level="INFO">{'elementData': [{'using': 'tag', 'value': 'GridView'}]}</msg>
+<status status="PASS" starttime="20200129 14:53:46.410" endtime="20200129 14:53:46.499"></status>
 </kw>
-<kw name="Verify is playback started" library="RobotLibrary">
-<msg timestamp="20200129 13:40:48.476" level="FAIL">Invalid player state</msg>
-<status status="FAIL" starttime="20200129 13:40:36.797" endtime="20200129 13:40:48.476"></status>
+<kw name="Send key" library="RobotLibrary">
+<arguments>
+<arg>Down</arg>
+<arg>3</arg>
+</arguments>
+<status status="PASS" starttime="20200129 14:53:46.502" endtime="20200129 14:53:49.596"></status>
 </kw>
-<status status="FAIL" starttime="20200129 13:40:32.647" endtime="20200129 13:40:48.476" critical="yes">Invalid player state</status>
+<kw name="Send key" library="RobotLibrary">
+<arguments>
+<arg>Select</arg>
+<arg>3</arg>
+</arguments>
+<status status="PASS" starttime="20200129 14:53:49.596" endtime="20200129 14:53:52.669"></status>
+</kw>
+<kw name="Verify is screen loaded" library="RobotLibrary">
+<arguments>
+<arg>${MovieDetailsParams}</arg>
+</arguments>
+<msg timestamp="20200129 14:53:52.745" level="INFO">{'elementData': [{'using': 'text', 'value': 'Play'}]}</msg>
+<status status="PASS" starttime="20200129 14:53:52.669" endtime="20200129 14:53:52.746"></status>
+</kw>
+<status status="PASS" starttime="20200129 14:53:43.343" endtime="20200129 14:53:52.746" critical="yes"></status>
 </test>
-<doc>Basic smoke tests</doc>
-<status status="FAIL" starttime="20200129 13:40:24.930" endtime="20200129 13:40:48.476"></status>
+<doc>Test 2</doc>
+<status status="FAIL" starttime="20200129 14:53:22.748" endtime="20200129 14:53:52.746"></status>
 </suite>
-<status status="FAIL" starttime="20200129 13:40:24.683" endtime="20200129 13:40:48.492"></status>
+<status status="FAIL" starttime="20200129 14:53:22.395" endtime="20200129 14:53:52.793"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="2" fail="1">Critical Tests</stat>
-<stat pass="2" fail="1">All Tests</stat>
+<stat pass="4" fail="1">Critical Tests</stat>
+<stat pass="4" fail="1">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="2" fail="1" id="s1" name="Src &amp; Basic tests">Src &amp; Basic tests</stat>
-<stat pass="0" fail="0" id="s1-s1" name="Src">Src &amp; Basic tests.Src</stat>
-<stat pass="2" fail="1" id="s1-s2" name="Basic tests">Src &amp; Basic tests.Basic tests</stat>
+<stat pass="4" fail="1" id="s1" name="Src &amp; test 4 DetailsScreen">Src &amp; test 4 DetailsScreen</stat>
+<stat pass="0" fail="0" id="s1-s1" name="Src">Src &amp; test 4 DetailsScreen.Src</stat>
+<stat pass="4" fail="1" id="s1-s2" name="test 4 DetailsScreen">Src &amp; test 4 DetailsScreen.test 4 DetailsScreen</stat>
 </suite>
 </statistics>
 <errors>
