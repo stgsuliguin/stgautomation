@@ -1,0 +1,38 @@
+{
+    "rows": [
+        {
+            "title": "ROW 1",
+            "items": [
+                {
+                    "hdPosterUrl": "pkg:/images/splash_hd.jpg"
+                },
+                {
+                    "hdPosterUrl": "pkg:/images/splash_hd.jpg"
+                },
+                {
+                    "hdPosterUrl": "pkg:/images/splash_hd.jpg"
+                },
+                {
+                    "hdPosterUrl": "pkg:/images/splash_hd.jpg"
+                }
+            ]
+        },
+        {
+            "title": "ROW 2",
+            "items": [
+                {
+                    "hdPosterUrl": "pkg:/images/splash_hd.jpg"
+                },
+                {
+                    "hdPosterUrl": "pkg:/images/splash_hd.jpg"
+                },
+                {
+                    "hdPosterUrl": "pkg:/images/splash_hd.jpg"
+                },
+                {
+                    "hdPosterUrl": "pkg:/images/splash_hd.jpg"
+                }
+            ]
+        }
+    ]
+}
