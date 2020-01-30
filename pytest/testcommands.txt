@@ -1,0 +1,6 @@
+C:\Users\SlingUserB\PycharmProjects\challenges\test1\pytest>py.test -s test_func.py
+================================================= test session starts =================================================
+platform win32 -- Python 3.8.0, pytest-2.9.1, py-1.8.0, pluggy-0.3.1
+rootdir: C:\Users\SlingUserB\PycharmProjects\challenges\test1\pytest, inifile: pytest.ini
+collecting 0 itemsNumber of iterations executed:  1
+Platform: Windows
