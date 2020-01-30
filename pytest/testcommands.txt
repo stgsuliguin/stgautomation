@@ -4,3 +4,6 @@ platform win32 -- Python 3.8.0, pytest-2.9.1, py-1.8.0, pluggy-0.3.1
 rootdir: C:\Users\SlingUserB\PycharmProjects\challenges\test1\pytest, inifile: pytest.ini
 collecting 0 itemsNumber of iterations executed:  1
 Platform: Windows
+
+
+https://stackoverflow.com/questions/37754279/how-to-enter-the-ok-key-using-adb-shell-input-text/37760581
