@@ -25,32 +25,28 @@ ${server_path}  D:/projects/go/webDriver/src/main.exe
 ${timeout}  20000
 ${pressDelay}  2000
 ${channel_code}  dev
-&{GridData}=  using=tag  value=GridView
-@{GridArray}=  &{GridData}
-&{GridParams}=  elementData=${GridArray}
 &{DetailsData}=  using=tag  value=DetailsView
 @{DetailsArray}=  &{DetailsData}
-&{DetailsParams}=  elementData=${DetailsArray}
-&{EncardData}=  using=text  value=Play again
-@{EncardArray}=  &{EncardData}
-&{EncardParams}=  elementData=${EncardArray}
-
+&{DetailsParam}=  elementData=@{DetailsArray}
+@{KEYS}=  Down  Select
 
 *** Test Cases ***
 Verify is channel launched
     Launch the channel  ${channel_code}
     Verify is channel loaded    ${channel_code}
 
-Verify is initial screen loaded
-    Verify is screen loaded    ${GridParams}
-
 Verify is details screen loaded
-    Send key  Select  4
-    Verify is screen loaded    ${DetailsParams}
+    Verify is screen loaded    ${DetailsParam}
 
 Verify is playback started
-    Send key  Select  3
+    Send key  Select  2
     Verify is playback started
 
-Encards
-    Verify is screen loaded    ${EncardParams}  10  10
+Bookmarks
+    Sleep  12
+    Send key  Back
+    Verify is screen loaded    ${DetailsParam}
+    Send keys  ${KEYS}  3
+    Verify is playback started
+    &{player}=  Get player info
+    Run keyword if  ${player['Position']} < 10000  Fail

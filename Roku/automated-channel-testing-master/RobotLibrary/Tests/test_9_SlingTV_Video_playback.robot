@@ -14,39 +14,35 @@
 #limitations under the License.
 ########################################################################
 *** Settings ***
-Documentation  Test 2
+Documentation  Basic smoke tests
 Library  ./../Library/RobotLibrary.py  ${ip_address}  ${timeout}  ${pressDelay}  ${server_path}
 Library  Collections
 
 
 *** Variables ***
-${ip_address}  192.168.1.94
-${server_path}  D:/projects/go/webDriver/src/main.exe
-${timeout}  20000
-${pressDelay}  2000
+${ip_address}  192.168.2.3
+${server_path} C:\Users\SlingUserB\PycharmProjects\challenges\test1\Roku\automated-channel-testing-master\src\main.exe
+${timeout}  50000
+${pressDelay}  5000
 ${channel_code}  dev
 &{DetailsData}=  using=tag  value=DetailsView
 @{DetailsArray}=  &{DetailsData}
 &{DetailsParam}=  elementData=@{DetailsArray}
-@{KEYS}=  Down  Select
+@{KEYS}=  Select
 
-*** Test Cases ***
-Verify is channel launched
-    Launch the channel  ${channel_code}
-    Verify is channel loaded    ${channel_code}    
-
-Verify is details screen loaded
-    Verify is screen loaded    ${DetailsParam}
+** Test Cases ***
 
 Verify is playback started
-    Send key  Select  2
+    Send key  Select
+    Send key  Select
     Verify is playback started
 
-Bookmarks
-    Sleep  12
-    Send key  Back
-    Verify is screen loaded    ${DetailsParam}
-    Send keys  ${KEYS}  3
-    Verify is playback started
-    &{player}=  Get player info
-    Run keyword if  ${player['Position']} < 10000  Fail
+#Bookmarks
+
+#    Sleep  12
+#    Send key  Back
+#    Sleep  5
+#    Verify is screen loaded    ${DetailsParam}
+#    Verify is playback started
+#    &{player}=  Get player info
+#    Run keyword if  ${player['Position']} < 10000  Fail
