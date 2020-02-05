@@ -46,3 +46,19 @@ Verify is playback started
 #    Verify is playback started
 #    &{player}=  Get player info
 #    Run keyword if  ${player['Position']} < 10000  Fail
+
+
+
+**Robot Library****
+
+#@keyword("Verify is playback started")
+#def verifyIsPlaybackStarted(self, retries = 10, delay = 1):
+#    while retries > 0:
+#        response = self._client.get_player_info()
+#        res = json.loads(response.text)
+#        if response.status_code != 200 or res['value']['State'] != 'play':
+#            retries -= 1
+#            sleep(delay)
+#        else:
+#            return True
+#    raise Exception("Invalid player state")
