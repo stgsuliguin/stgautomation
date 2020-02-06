@@ -43,12 +43,13 @@ ${channel_code}  dev
 &{Item2Data}=  using=text  value=Item 1.2
 @{Item2Array}=  &{Item2Data}
 &{Item2Params}=  elementData=${Item2Array}
-@{KEYS}=  Fwd  Fwd  Fwd  Fwd  Fwd
+#@{KEYS}=  Fwd  Fwd  Fwd  Fwd  Fwd
+@{KEYS}=  Fwd  
 
 *** Test Cases ***
 Verify is channel launched
     Launch the channel  ${channel_code}
-    Verify is channel loaded    ${channel_code}    
+    Verify is channel loaded    ${channel_code}
 
 Verify is initial screen loaded
     Verify is screen loaded    ${GridParams}
@@ -62,5 +63,7 @@ Verify is MediaView loaded
     Verify is screen loaded    ${MediaViewParams}
 
 Verify next content after FF
-    Send keys  ${KEYS}  4
-    Verify is screen loaded    ${Item2Params}  6  3   
+#    Send keys  ${KEYS}  2
+     Send keys  ${KEYS}  1
+#    Verify is screen loaded    ${Item2Params}  6  3
+     Verify is screen loaded    ${Item2Params}  2  2

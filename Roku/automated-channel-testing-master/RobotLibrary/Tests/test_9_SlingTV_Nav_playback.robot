@@ -33,9 +33,11 @@ ${channel_code}  dev
 ** Test Cases ***
 
 Verify is playback started
+    Send key  Right
+    Send key  Left
     Send key  Down
     Send key  Down
-    Send Key  Down 
+    Send Key  Down
     Send key  Select
     Send key  Select
     Verify is playback started

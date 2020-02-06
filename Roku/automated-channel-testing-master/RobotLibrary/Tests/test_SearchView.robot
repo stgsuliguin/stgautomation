@@ -38,12 +38,12 @@ ${channel_code}  dev
 *** Test Cases ***
 Verify is channel launched
     Launch the channel  ${channel_code}
-    Verify is channel loaded    ${channel_code}    
+    Verify is channel loaded    ${channel_code}
 
 Verify is search screen loaded
     Verify is screen loaded    ${SearchViewParams}
 
-Verify rows number ater search
+Verify rows number after search
     Verify is screen loaded    ${PlaceholderParams}
     Send word  hello
     @{rows}=  Get Elements   ${RowParams}   7
