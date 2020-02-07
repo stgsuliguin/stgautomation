@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.2 (Python 3.8.0 on win32)" generated="20200206 13:12:50.128" rpa="false">
+<robot generator="Robot 3.1.2 (Python 3.8.0 on win32)" generated="20200206 18:05:54.986" rpa="false">
 <suite id="s1" name="Src &amp; Basic details">
 <suite id="s1-s1" name="Src" source="C:\Users\SlingUserB\PycharmProjects\challenges\test1\Roku\automated-channel-testing-master\src">
-<status status="PASS" starttime="20200206 13:12:50.473" endtime="20200206 13:12:50.506"></status>
+<status status="PASS" starttime="20200206 18:05:55.323" endtime="20200206 18:05:55.357"></status>
 </suite>
 <suite id="s1-s2" name="Basic details" source="C:\Users\SlingUserB\PycharmProjects\challenges\test1\Roku\automated-channel-testing-master\RobotLibrary\Tests\Basic_details.robot">
 <test id="s1-s2-t1" name="Verify is playback started">
@@ -10,103 +10,103 @@
 <arguments>
 <arg>Right</arg>
 </arguments>
-<status status="PASS" starttime="20200206 13:12:52.163" endtime="20200206 13:12:54.226"></status>
+<status status="PASS" starttime="20200206 18:05:57.115" endtime="20200206 18:05:59.980"></status>
 </kw>
 <kw name="Send key" library="RobotLibrary">
 <arguments>
 <arg>Left</arg>
 </arguments>
-<status status="PASS" starttime="20200206 13:12:54.229" endtime="20200206 13:12:56.363"></status>
+<status status="PASS" starttime="20200206 18:05:59.983" endtime="20200206 18:06:02.093"></status>
 </kw>
 <kw name="Send key" library="RobotLibrary">
 <arguments>
 <arg>Down</arg>
 </arguments>
-<status status="PASS" starttime="20200206 13:12:56.366" endtime="20200206 13:12:58.434"></status>
+<status status="PASS" starttime="20200206 18:06:02.096" endtime="20200206 18:06:04.160"></status>
 </kw>
 <kw name="Send key" library="RobotLibrary">
 <arguments>
 <arg>Down</arg>
 </arguments>
-<status status="PASS" starttime="20200206 13:12:58.437" endtime="20200206 13:13:00.519"></status>
+<status status="PASS" starttime="20200206 18:06:04.163" endtime="20200206 18:06:06.380"></status>
 </kw>
 <kw name="Send key" library="RobotLibrary">
 <arguments>
 <arg>Down</arg>
 </arguments>
-<status status="PASS" starttime="20200206 13:13:00.522" endtime="20200206 13:13:02.594"></status>
+<status status="PASS" starttime="20200206 18:06:06.383" endtime="20200206 18:06:08.501"></status>
 </kw>
 <kw name="Send key" library="RobotLibrary">
 <arguments>
 <arg>Select</arg>
 </arguments>
-<status status="PASS" starttime="20200206 13:13:02.597" endtime="20200206 13:13:04.654"></status>
+<status status="PASS" starttime="20200206 18:06:08.504" endtime="20200206 18:06:10.565"></status>
 </kw>
 <kw name="Send key" library="RobotLibrary">
 <arguments>
 <arg>Select</arg>
 </arguments>
-<status status="PASS" starttime="20200206 13:13:04.657" endtime="20200206 13:13:06.726"></status>
+<status status="PASS" starttime="20200206 18:06:10.568" endtime="20200206 18:06:12.625"></status>
 </kw>
 <kw name="Verify is playback started" library="RobotLibrary">
-<status status="PASS" starttime="20200206 13:13:06.729" endtime="20200206 13:13:09.058"></status>
+<status status="PASS" starttime="20200206 18:06:12.628" endtime="20200206 18:06:15.002"></status>
 </kw>
-<status status="PASS" starttime="20200206 13:12:52.158" endtime="20200206 13:13:09.060" critical="yes"></status>
+<status status="PASS" starttime="20200206 18:05:57.109" endtime="20200206 18:06:15.005" critical="yes"></status>
 </test>
 <test id="s1-s2-t2" name="Channel should be launched">
 <kw name="Send key Down">
-<msg timestamp="20200206 13:13:09.094" level="FAIL">No keyword with name 'Send key Down' found.</msg>
-<status status="FAIL" starttime="20200206 13:13:09.094" endtime="20200206 13:13:09.095"></status>
+<msg timestamp="20200206 18:06:15.041" level="FAIL">No keyword with name 'Send key Down' found.</msg>
+<status status="FAIL" starttime="20200206 18:06:15.040" endtime="20200206 18:06:15.041"></status>
 </kw>
-<status status="FAIL" starttime="20200206 13:13:09.068" endtime="20200206 13:13:09.098" critical="yes">No keyword with name 'Send key Down' found.</status>
+<status status="FAIL" starttime="20200206 18:06:15.012" endtime="20200206 18:06:15.044" critical="yes">No keyword with name 'Send key Down' found.</status>
 </test>
 <test id="s1-s2-t3" name="Check if details screen showed">
 <kw name="Verify is screen loaded" library="RobotLibrary">
 <arguments>
 <arg>${Params2}</arg>
 </arguments>
-<msg timestamp="20200206 13:13:20.568" level="INFO">{'elementData': [{'using': 'text', 'value': 'Barack Gates, Bill Obama'}]}</msg>
-<msg timestamp="20200206 13:13:20.573" level="FAIL">Can't find element</msg>
-<status status="FAIL" starttime="20200206 13:13:09.113" endtime="20200206 13:13:20.573"></status>
+<msg timestamp="20200206 18:06:26.844" level="INFO">{'elementData': [{'using': 'text', 'value': 'Barack Gates, Bill Obama'}]}</msg>
+<msg timestamp="20200206 18:06:26.887" level="FAIL">Can't find element</msg>
+<status status="FAIL" starttime="20200206 18:06:15.061" endtime="20200206 18:06:26.888"></status>
 </kw>
-<status status="FAIL" starttime="20200206 13:13:09.107" endtime="20200206 13:13:20.576" critical="yes">Can't find element</status>
+<status status="FAIL" starttime="20200206 18:06:15.052" endtime="20200206 18:06:26.891" critical="yes">Can't find element</status>
 </test>
 <test id="s1-s2-t4" name="Check if playback started">
 <kw name="Send key" library="RobotLibrary">
 <arguments>
 <arg>Back</arg>
 </arguments>
-<status status="PASS" starttime="20200206 13:13:20.592" endtime="20200206 13:13:22.650"></status>
+<status status="PASS" starttime="20200206 18:06:26.908" endtime="20200206 18:06:28.973"></status>
 </kw>
 <kw name="Send key" library="RobotLibrary">
 <arguments>
 <arg>Back</arg>
 </arguments>
-<status status="PASS" starttime="20200206 13:13:22.653" endtime="20200206 13:13:24.722"></status>
+<status status="PASS" starttime="20200206 18:06:28.975" endtime="20200206 18:06:31.033"></status>
 </kw>
 <kw name="Send key" library="RobotLibrary">
 <arguments>
 <arg>Down</arg>
 </arguments>
-<status status="PASS" starttime="20200206 13:13:24.724" endtime="20200206 13:13:26.842"></status>
+<status status="PASS" starttime="20200206 18:06:31.036" endtime="20200206 18:06:33.106"></status>
 </kw>
 <kw name="Send key" library="RobotLibrary">
 <arguments>
 <arg>Down</arg>
 </arguments>
-<status status="PASS" starttime="20200206 13:13:26.845" endtime="20200206 13:13:28.928"></status>
+<status status="PASS" starttime="20200206 18:06:33.108" endtime="20200206 18:06:35.499"></status>
 </kw>
 <kw name="Send key" library="RobotLibrary">
 <arguments>
 <arg>Select</arg>
 </arguments>
-<status status="PASS" starttime="20200206 13:13:28.931" endtime="20200206 13:13:31.062"></status>
+<status status="PASS" starttime="20200206 18:06:35.502" endtime="20200206 18:06:37.578"></status>
 </kw>
 <kw name="Send key" library="RobotLibrary">
 <arguments>
 <arg>Select</arg>
 </arguments>
-<status status="PASS" starttime="20200206 13:13:31.065" endtime="20200206 13:13:33.127"></status>
+<status status="PASS" starttime="20200206 18:06:37.581" endtime="20200206 18:06:39.733"></status>
 </kw>
 <kw name="Run Keyword And Ignore Error" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
@@ -124,13 +124,13 @@
 <arg>${Params5}</arg>
 <arg>2</arg>
 </arguments>
-<msg timestamp="20200206 13:13:35.549" level="INFO">{'elementData': [{'using': 'text', 'value': 'Authenticate to watch'}]}</msg>
-<msg timestamp="20200206 13:13:35.552" level="FAIL">Can't find element</msg>
-<status status="FAIL" starttime="20200206 13:13:33.133" endtime="20200206 13:13:35.552"></status>
+<msg timestamp="20200206 18:06:42.162" level="INFO">{'elementData': [{'using': 'text', 'value': 'Authenticate to watch'}]}</msg>
+<msg timestamp="20200206 18:06:42.165" level="FAIL">Can't find element</msg>
+<status status="FAIL" starttime="20200206 18:06:39.739" endtime="20200206 18:06:42.165"></status>
 </kw>
-<msg timestamp="20200206 13:13:35.553" level="INFO">${status} = FAIL</msg>
-<msg timestamp="20200206 13:13:35.554" level="INFO">${value} = Can't find element</msg>
-<status status="PASS" starttime="20200206 13:13:33.130" endtime="20200206 13:13:35.554"></status>
+<msg timestamp="20200206 18:06:42.166" level="INFO">${status} = FAIL</msg>
+<msg timestamp="20200206 18:06:42.167" level="INFO">${value} = Can't find element</msg>
+<status status="PASS" starttime="20200206 18:06:39.736" endtime="20200206 18:06:42.167"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -146,19 +146,19 @@
 <arguments>
 <arg>select</arg>
 </arguments>
-<status status="PASS" starttime="20200206 13:13:35.560" endtime="20200206 13:13:37.669"></status>
+<status status="PASS" starttime="20200206 18:06:42.173" endtime="20200206 18:06:44.266"></status>
 </kw>
-<status status="PASS" starttime="20200206 13:13:35.557" endtime="20200206 13:13:37.670"></status>
+<status status="PASS" starttime="20200206 18:06:42.170" endtime="20200206 18:06:44.267"></status>
 </kw>
 <kw name="Verify is playback started" library="RobotLibrary">
-<status status="PASS" starttime="20200206 13:13:37.673" endtime="20200206 13:13:40.512"></status>
+<status status="PASS" starttime="20200206 18:06:44.270" endtime="20200206 18:06:46.897"></status>
 </kw>
-<status status="PASS" starttime="20200206 13:13:20.585" endtime="20200206 13:13:40.517" critical="yes"></status>
+<status status="PASS" starttime="20200206 18:06:26.901" endtime="20200206 18:06:46.901" critical="yes"></status>
 </test>
 <doc>Basic smoke tests</doc>
-<status status="FAIL" starttime="20200206 13:12:50.524" endtime="20200206 13:13:40.530"></status>
+<status status="FAIL" starttime="20200206 18:05:55.385" endtime="20200206 18:06:46.911"></status>
 </suite>
-<status status="FAIL" starttime="20200206 13:12:50.142" endtime="20200206 13:13:40.566"></status>
+<status status="FAIL" starttime="20200206 18:05:55.001" endtime="20200206 18:06:46.942"></status>
 </suite>
 <statistics>
 <total>
