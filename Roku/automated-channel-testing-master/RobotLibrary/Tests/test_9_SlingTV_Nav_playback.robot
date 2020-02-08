@@ -40,6 +40,7 @@ Verify is playback started
     Send Key  Down
     Send key  Select
     Send key  Select
+    Send key  Select
     Verify is playback started
 
 #Bookmarks
