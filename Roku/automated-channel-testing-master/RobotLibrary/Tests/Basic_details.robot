@@ -20,7 +20,7 @@ Library  Collections
 
 
 *** Variables ***
-${ip_address}  192.168.2.3
+${ip_address}  192.168.1.114
 ${server_path}  C:\Users\SlingUserB\PycharmProjects\challenges\test1\Roku\automated-channel-testing-master\src\main.exe
 ${timeout}  90000
 ${pressDelay}  8000
