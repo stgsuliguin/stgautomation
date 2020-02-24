@@ -150,7 +150,7 @@ duts = {'mp1a': {
     'evolve': {
     'account': '16',
 #    'wired_ip_address': '10.0.0.105',
-    'wired_ip_address': '192.168.1.36',
+    'wired_ip_address': '192.168.1.116',
     'wireless_ip_address': 'mphome',
     'device_serial_number': 'AREYDC07023L',
     'android_serial_number': '40104543000014A3',
